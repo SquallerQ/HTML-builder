@@ -17,6 +17,6 @@ stdin.on('data', (data) => {
 process.on('SIGINT', endProcess);
 
 function endProcess() {
-  stdout.write('Process Ended\n');
+  stdout.write('Process Ended. Goodbye\n');
   exit();
 }
